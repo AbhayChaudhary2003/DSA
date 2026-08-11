@@ -24,6 +24,7 @@ public:
             func(digits,n,idx+1,temp,ans);
             temp.pop_back();
         }
+        return;
     }
 
     vector<string> letterCombinations(string digits) {
